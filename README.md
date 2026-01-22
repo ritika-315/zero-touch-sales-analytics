@@ -42,6 +42,12 @@ The system performs automated data cleaning, database storage, interactive dashb
 
 ---
 
+## Dataset Used
+
+Dataset Link: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
+
+---
+
 ## 🛠️ Tech Stack
 
 | Component | Technology |
