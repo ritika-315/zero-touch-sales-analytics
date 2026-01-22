@@ -31,7 +31,7 @@ fig3 = px.bar(top_products, x="sales", y="product_name", orientation="h", title=
 st.plotly_chart(fig3)
 
 # Cities Analysis
-st.subheader("🏙️ Top 5 Cities by Sales")
+st.subheader("🏙️ Top 10 Cities by Sales")
 top_cities = df.groupby("city")["sales"].sum().sort_values(ascending=False).head(10).reset_index()
 fig4 = px.bar(top_cities, x="sales", y="city", orientation="h", title="Top Cities by Sales")
 st.plotly_chart(fig4)
